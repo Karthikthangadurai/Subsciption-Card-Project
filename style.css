@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Gabarito", sans-serif;
+}
+
+h1{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+     width: 60%;
+     margin: 10px;
+     margin-left: 21%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    gap: 65px;
+}
+
+.container__one{
+    height: 235px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.container__one__title,.container__two__title,.container__three__title{
+    text-align: center;
+}
+
+.container__one__desc{
+    height: 155px;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: solid green 3px;
+    border-radius: 10px;
+}
+
+.container__one:hover{
+    filter: opacity(1);
+    transform: scale(1.04);
+}
+
+.container__two{
+    height: 235px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.container__two__desc{
+    height: 155px;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: solid green 3px;
+    border-radius: 10px;
+}
+
+.container__two:hover{
+    filter: opacity(1);
+    transform: scale(1.04);
+}
+
+.container__three{
+    height: 235px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.container__three__desc{
+    height: 155px;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: solid green 3px;
+    border-radius: 10px;
+}
+
+.container__three:hover{
+    filter: opacity(1);
+    transform: scale(1.04);
+}
+
+.container__one__button,.container__two__button,.container__three__button{
+    background-color: orange;
+    color: rgb(5, 0, 10);
+    padding: 2px;
+    border: none;
+    border: solid greenyellow 2px;
+    border-radius: 3px;
+    margin-left: 25%;
+}
+
+.container__one__button:hover,.container__two__button:hover,.container__three__button:hover{
+    background-color: rgb(84, 239, 84);
+    color: rgb(9, 6, 0);
+}
