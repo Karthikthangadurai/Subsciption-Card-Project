@@ -31,4 +31,4 @@ The website displays a styled card that includes:
 ## 🔗 Live Preview
 
 You can check the live versions here:
-[🔹 Subscription Card Live](#) 
+[🔹 Subscription Card Live](https://karthikthangadurai.github.io/Subsciption-Card-Project/) 
